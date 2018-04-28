@@ -14,7 +14,7 @@ body {
 
 .zone {
   height: 750px;
-  width: 45vw;
+  width: 100%;
   float: left;
   background: linear-gradient(white, black);
   padding-top: 25px;
