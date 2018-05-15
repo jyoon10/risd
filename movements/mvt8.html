@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Movement 8</title>
+<style>
+
+body {
+  margin: 0;
+  background-color: #9B59B6;
+  animation-name: colors;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.tophalf {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #F1C40F;
+  animation-name: shift;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes shift {
+  0% {top: 0; left: 0;}
+  50% {top: 50%; left: 0;}
+  0% {top: 0; left: 0;}
+}
+
+.block1 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 20%;
+  top: 25%;
+  background-color: #E74C3C;
+  animation-name: color1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color1 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+.block2 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 30%;
+  top: 25%;
+  background-color: #8E44AD;
+  animation-name: color2;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color2 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.block3 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 40%;
+  top: 25%;
+  background-color: #3498DB;
+  animation-name: color3;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color3 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+.block4 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 50%;
+  top: 25%;
+  background-color: #16A085;
+  animation-name: color4;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color4 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.block5 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 60%;
+  top: 25%;
+  background-color: #2ECC71;
+  animation-name: color5;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color5 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+.block6 {
+  position: absolute;
+  height: 50%;
+  width: 70px;
+  left: 70%;
+  top: 25%;
+  background-color: #F39C12;
+  animation-name: color6;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes color6 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+
+</style>
+</head>
+
+
+<body>
+  <a href="mvt9.html" target="_blank"><div class="tophalf"></div></a>
+  <div class="block1"></div>
+  <div class="block2"></div>
+  <div class="block3"></div>
+  <div class="block4"></div>
+  <div class="block5"></div>
+  <div class="block6"></div>
+  <div class="block7"></div>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Movement 6</title>
+<style>
+
+body {
+  margin: 0;
+  background-color: #9B59B6;
+  animation-name: colors;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.q1 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 0;
+  left: 0;
+  background-color: #9B59B6;
+  animation-name: colors2;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 0;
+}
+
+@keyframes colors2 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.q2 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  right: 0;
+  top: 0;
+  background-color: #8E44AD;
+  animation-name: colors3;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 3;
+}
+
+@keyframes colors3 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+.q3 {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0;
+  bottom: 0;
+  background-color: #F39C12;
+  animation-name: colors4;
+  animation-duration: 38s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 2;
+}
+
+@keyframes colors4 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+.cross1 {
+  position: absolute;
+  height: 80%;
+  width: 50px;
+  left: 47.5%;
+  top: 10%;
+  background-color: #2ECC71;
+  animation-name: rotate1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 4;
+}
+
+@keyframes rotate1 {
+  0% {transform: rotate(45deg);}
+  50% {transform: rotate(-45deg);}
+  100% {transform: rotate(45deg);}
+}
+
+.cross2 {
+  position: absolute;
+  height: 80%;
+  width: 50px;
+  left: 47.5%;
+  top: 10%;
+  background-color: #F39C12;
+  animation-name: rotate2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 4;
+}
+
+@keyframes rotate2 {
+  0% {transform: rotate(-45deg);}
+  50% {transform: rotate(45deg);}
+  100% {transform: rotate(-45deg);}
+}
+
+
+
+</style>
+</head>
+
+
+<body>
+  <div class="q1"></div>
+  <div class="q2"></div>
+  <div class="q3"></div>
+  <div class="q4"></div>
+  <div class="cross1"></div>
+  <a href="mvt7.html" target="_blank"><div class="cross2"></div></a>
+</body>
+
+</html>

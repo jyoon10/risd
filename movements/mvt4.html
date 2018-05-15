@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Movement 4</title>
+<style>
+
+body {
+  margin: 0;
+  background-color: #9B59B6;
+  animation-name: colors;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes colors {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+div {
+  position: absolute;
+  height: 60%;
+  width: 40%;
+  left: 30%;
+  top: 23%;
+  background-color: #9B59B6;
+  animation-name: colors2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 1;
+}
+
+@keyframes colors2 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #E74C3C;}
+  16% {background-color: #C0392B;}
+  24% {background-color: #F39C12;}
+  32% {background-color: #F1C40F;}
+  40% {background-color: #2ECC71;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #16A085;}
+  64% {background-color: #1ABC9C;}
+  72% {background-color: #3498DB;}
+  80% {background-color: #2980B9;}
+  88% {background-color: #8E44AD;}
+  100% {background-color: #9B59B6;}
+}
+
+.rotate {
+  position: absolute;
+  height: 60%;
+  width: 40%;
+  left: 30%;
+  top: 23%;
+  background-color: #9B59B6;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 2;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-45deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.tophalf {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #9B59B6;
+  animation-name: colors3;
+  animation-duration: 34s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 0;
+}
+
+@keyframes colors3 {
+  0% {background-color: #9B59B6;}
+  8% {background-color: #8E44AD;}
+  16% {background-color: #2980B9;}
+  24% {background-color: #3498DB;}
+  32% {background-color: #1ABC9C;}
+  40% {background-color: #16A085;}
+  48% {background-color: #27AE60;}
+  56% {background-color: #2ECC71;}
+  64% {background-color: #F1C40F;}
+  72% {background-color: #F39C12;}
+  80% {background-color: #C0392B;}
+  88% {background-color: #E74C3C;}
+  100% {background-color: #9B59B6;}
+}
+
+
+</style>
+</head>
+
+
+<body>
+  <div></div>
+  <a href="mvt5.html" target="_blank"><div class="rotate"></div></a>
+  <div class="tophalf"></div>
+</body>
+
+</html>
