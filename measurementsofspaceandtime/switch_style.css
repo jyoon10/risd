@@ -1,0 +1,33 @@
+body {
+  padding: 30px 0px 0px 40px;
+}
+
+a {
+  font-size: 100px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+
+/*
+.block {
+  height: 100%;
+  width: 50%;
+  float: left;
+  inline: block;
+  padding-top: 15vw;
+}
+*/
+
+/*
+.block a{
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+*/
