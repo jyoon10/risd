@@ -1,7 +1,7 @@
 .hour {
     position: fixed;
     top: 130px;
-    left: 70px;
+    left: 50px;
     z-index:1;
     animation:spin_sec 86400s linear infinite;
 }
@@ -15,7 +15,7 @@
 .min {
     position: fixed;
     top: 180px;
-    left: 120px;
+    left: 100px;
     z-index:2;
     animation:spin_sec 3600s linear infinite;
 }
@@ -29,7 +29,7 @@
 .sec {
     position: fixed;
     top: 230px;
-    left: 170px;
+    left: 150px;
     z-index:3;
     animation:spin_sec 60s linear infinite;
 }
