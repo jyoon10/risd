@@ -1,0 +1,31 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+#_idContainer000, #_idContainer001, #_idContainer002, #_idContainer003, #_idContainer004, #_idContainer005, #_idContainer006, #_idContainer007, #_idContainer008, #_idContainer018, #_idContainer019, #_idContainer020, #_idContainer021, #_idContainer022, #_idContainer023, #_idContainer024, #_idContainer025, #_idContainer026 {
+	position: absolute;
+	/*display:inline-block;
+	height:648px;
+	width:432px;*/
+}
+#_idContainer009, #_idContainer010, #_idContainer011, #_idContainer012, #_idContainer013, #_idContainer014, #_idContainer015, #_idContainer016, #_idContainer017 {
+	position: absolute;
+	/*display:inline-block;
+	height:648px;
+	width:864px;*/
+}
+img._idGenObjectAttribute-1 {
+	height:100.00%;
+	min-width:100%;
+	width:100.00%;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}
+div._idGenObjectLayout-1 {
+	text-align:left;
+}

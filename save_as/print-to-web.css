@@ -3,21 +3,40 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	padding:0;
 	border-width:0;
 }
+
+a {
+	font-family: 'Space Mono', monospace;
+	color: white;
+}
+
+a:link {
+		background-color: black;
+		text-decoration: none;
+}
+
+a:visited {
+		text-decoration: none;
+}
+
 body {
 	-epub-hyphens:auto;
 }
+
 #_idContainer000, #_idContainer001, #_idContainer002, #_idContainer003, #_idContainer004, #_idContainer005, #_idContainer006, #_idContainer007, #_idContainer008 {
 	position: absolute;
 	width:100.00%;
 }
+
 img._idGenObjectAttribute-1 {
 	height:100.00%;
 	min-width:100%;
 	width:100.00%;
 }
+
 div._idGenObjectStyleOverride-1 {
 	border-width:0px;
 }
+
 div._idGenObjectLayout-1 {
-	text-align:center;
+	text-align:left;
 }
