@@ -1,0 +1,11 @@
+body{
+  margin:0;
+}
+a{
+  width:100vw;
+  height:100vh;
+  display: block;
+  opacity: 0;
+  cursor: default;
+  position: fixed;
+}
